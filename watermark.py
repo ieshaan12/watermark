@@ -27,7 +27,7 @@ def waterMarkImages(imageInputPath, fileName, imageOutputPath, text, fontPath):
 if __name__ == "__main__":
     folder = "C:\\Users\\Work\\Desktop\\photos"
     outputFolder= "C:\\Users\\Work\\Desktop\\VSCode\\ieshaan12.github.io\\images\\Gallery"
-    font = "C:\\Users\\Work\\Desktop\\VSCode\\ieshaan12.github.io\\fonts\\Bangers-Regular.ttf"
+    font = "C:\\Users\\Work\\Desktop\\VSCode\\Watermark\\fonts\\Bangers-Regular.ttf"
 
     text = "© Ieshaan Saxena"
     print(folder)
