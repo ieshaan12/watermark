@@ -4,3 +4,5 @@ __pycache__/
 *.gif
 main.py
 .vscode/
+dist/
+*.egginfo
