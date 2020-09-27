@@ -5,6 +5,7 @@ from PyWatermark.constants import SIZE_CONSTANTS
 from PyWatermark.WExceptions import WatermarkException
 from PyWatermark.fontMap import FONT_MAP, AVAILABLE_FONTS
 import os
+import pkg_resources
 
 def _setSize(width, height, size) -> int:
     baseSize = min(width,height) // 50
@@ -56,7 +57,8 @@ def waterMarkImages(imageFile, imageOutputPath, text, fontName = "Bangers" , siz
     drawing = ImageDraw.Draw(textImage)
     
     if fontName in FONT_MAP:
-        fontPath = "PyWaterMark\\fonts\\" + FONT_MAP[fontName]
+        # ! fontPath = "PyWaterMark\\fonts\\" + FONT_MAP[fontName] - ONLY DEV STUFF
+        fontPath = pkg_resources.resource_filename('PyWatermark','fonts/' + FONT_MAP[fontName])
         if not os.path.isfile(fontPath):
             raise WatermarkException(2, val = fontName)
     else:
