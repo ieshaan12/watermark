@@ -6,7 +6,7 @@ with open("README.md", "r") as fileObj:
 setup(
     name="PyWatermark",
     packages=find_packages(),
-    version="0.1.1",
+    version="0.1.2",
     author="Ieshaan Saxena",
     author_email="ieshaan1999@gmail.com",
     description="A library to watermark your images easily.",
@@ -14,12 +14,10 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/ieshaan12/watermark",
-    download_url="https://github.com/ieshaan12/watermark/archive/v0.1.1.tar.gz",
-    include_package_data=True,
-    package_data={'PyWatermark': ['fonts/*.ttf']},
+    download_url="https://github.com/ieshaan12/watermark/archive/v0.1.2.tar.gz",
+    package_data={'PyWatermark': ['fonts/Bangers-Regular.ttf','fonts/MerriweatherSans-Regular.ttf','fonts/Oswald-Regular.ttf','fonts/Raleway-Regular.ttf','fonts/Roboto-Regular.ttf']},
     install_requires = [
-        'pillow >= 7.2.0',
-        'os'
+        'pillow>=7.2.0'
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
