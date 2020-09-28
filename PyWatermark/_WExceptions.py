@@ -1,7 +1,16 @@
 from PyWatermark.constants import POSITION_CONSTANTS, SIZE_CONSTANTS
 class WatermarkException(Exception):
+    """Creating the WatermarkException class."""
+
     # * We'll use clear codes to segregate between different types of errors
     def __init__(self, errorcode, val = None):
+        """__init__ function for error messages.
+
+        Send back error messages.
+            Args:
+                errorcode(int) : Specifying the errorcodes for different errors
+                val(any): Any argument regarding the error
+        """
         if errorcode == 0:
             super().__init__("INVALID POSTION CODE - \"{}\", MUST BE ONE OF : ".format(val), POSITION_CONSTANTS)
         elif errorcode == 1:
