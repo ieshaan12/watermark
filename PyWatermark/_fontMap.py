@@ -7,6 +7,7 @@ FONT_MAP = {
     "Anson" : "Anson-Regular.ttf",
     "Brilliant" : "Brilliant-Regular.ttf",
     "Helvetica" : "Helvetica-Regular.ttf",
+    "Arial" : "Arial-Regular.ttf",
 }
 
 AVAILABLE_FONTS = {
@@ -18,4 +19,5 @@ AVAILABLE_FONTS = {
     "Anson",
     "Brilliant",
     "Helvetica",
+    "Arial",
 }
