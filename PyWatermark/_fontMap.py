@@ -8,6 +8,7 @@ FONT_MAP = {
     "Brilliant" : "Brilliant-Regular.ttf",
     "Helvetica" : "Helvetica-Regular.ttf",
     "Arial" : "Arial-Regular.ttf",
+    "Knile" : "Knile-Regular.ttf",
 }
 
 AVAILABLE_FONTS = {
@@ -20,4 +21,5 @@ AVAILABLE_FONTS = {
     "Brilliant",
     "Helvetica",
     "Arial",
+    "Knile",
 }
