@@ -4,6 +4,7 @@ FONT_MAP = {
     "Oswald" : "Oswald-Regular.ttf",
     "Raleway" : "Raleway-Regular.ttf",
     "Roboto" : "Roboto-Regular.ttf",
+    "Anson" : "Anson-Regular.ttf",
 }
 
 AVAILABLE_FONTS = {
@@ -11,5 +12,6 @@ AVAILABLE_FONTS = {
     "MerriweatherSans",
     "Oswald",
     "Raleway",
-    "Roboto"
+    "Roboto",
+    "Anson",
 }
