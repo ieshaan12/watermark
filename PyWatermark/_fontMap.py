@@ -4,11 +4,11 @@ FONT_MAP = {
     "Oswald" : "Oswald-Regular.ttf",
     "Raleway" : "Raleway-Regular.ttf",
     "Roboto" : "Roboto-Regular.ttf",
-    "Anson" : "Anson-Regular.ttf",
-    "BrilliantBrush" : "Brilliant-Brush-Regular.ttf",
-    "Helvetica" : "Helvetica-Regular.ttf",
-    "Arial" : "Arial-Regular.ttf",
-    "Knile" : "Knile-Regular.ttf",
+    "FiraSans" : "FiraSans-Regular.ttf",
+    "Inter" : "Inter-Regular.ttf",
+    "Manrope" : "Manrope-Regular.ttf",
+    "PublicSans" : "PublicSans-Regular.ttf",
+    "Urbanist" : "Urbanist-Regular.ttf",
 }
 
 AVAILABLE_FONTS = {
@@ -17,9 +17,9 @@ AVAILABLE_FONTS = {
     "Oswald",
     "Raleway",
     "Roboto",
-    "Anson",
-    "BrilliantBrush",
-    "Helvetica",
-    "Arial",
-    "Knile",
+    "FiraSans",
+    "Inter",
+    "Manrope",
+    "PublicSans",
+    "Urbanist",
 }
