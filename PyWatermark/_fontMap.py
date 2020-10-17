@@ -5,6 +5,7 @@ FONT_MAP = {
     "Raleway" : "Raleway-Regular.ttf",
     "Roboto" : "Roboto-Regular.ttf",
     "Anson" : "Anson-Regular.ttf",
+    "Brilliant" : "Brilliant-Regular.ttf",
 }
 
 AVAILABLE_FONTS = {
@@ -14,4 +15,5 @@ AVAILABLE_FONTS = {
     "Raleway",
     "Roboto",
     "Anson",
+    "Brilliant",
 }
