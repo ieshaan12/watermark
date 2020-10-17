@@ -6,6 +6,7 @@ FONT_MAP = {
     "Roboto" : "Roboto-Regular.ttf",
     "Anson" : "Anson-Regular.ttf",
     "Brilliant" : "Brilliant-Regular.ttf",
+    "Helvetica" : "Helvetica-Regular.ttf",
 }
 
 AVAILABLE_FONTS = {
@@ -16,4 +17,5 @@ AVAILABLE_FONTS = {
     "Roboto",
     "Anson",
     "Brilliant",
+    "Helvetica",
 }
