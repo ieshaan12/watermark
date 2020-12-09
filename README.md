@@ -12,7 +12,7 @@ This library exploits the usefulness of pillow to watermark images. It's an easy
 
 ### Usage
 
-```
+```python3
 from PyWatermark import waterMarkImages, getAvailableFonts
 
 imageFile = "image.jpg"
